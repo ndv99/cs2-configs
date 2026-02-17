@@ -19,6 +19,35 @@ To use, add the following lines to your CS2 launch options:
 +exec autoexec.cfg
 ```
 
+### `buybinds.cfg`
+
+Creates binds for buying, dropping, and refunding weapons. Requires a numpad.
+
+Default binds:
+
+- `/`: Pistol 4
+- `*`: Zeus
+- `-`: Pistol 2
+- `7`: Kevlar
+- `8`: Kevlar + helmet
+- `9`: Defuse kit
+- `+`: Rifle 5
+- `Enter`: Rifle 3
+- `4`: Rifle 1
+- `5`: Mid-tier 5
+- `6`: Pistol 5
+- `1`: Flash
+- `2`: Smoke
+- `3`: Molly/incendiary
+- `0`: HE grenade
+- `.`: Decoy grenade
+
+You can hold `ALT` to drop any of these (except kevlar + defuse) to teammates, and `SHIFT` to refund.
+
+`F3` will refund all purchases.
+
+This assumes that your `SHIFT` key is what you use to walk as well. 
+
 ### `prac.cfg`
 
 A config for multiplayer practice on any map. This script:
